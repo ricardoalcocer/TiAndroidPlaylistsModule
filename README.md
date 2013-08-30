@@ -2,7 +2,7 @@
 
 ## Summary
 
-This project is a native Android module for Titanium that allows you to get Android's native playlists and its contents.
+This project is a native Android module for Titanium that allows you to get Android's native playlists and their contents.
 
 ## API
 The module is very similar to a web service in the sense that it returns JSON strings.
