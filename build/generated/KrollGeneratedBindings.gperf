@@ -1,0 +1,18 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name ModandroidplaylistsBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "com.alcoapps.androidplaylists.ExampleProxy.h"
+#include "com.alcoapps.androidplaylists.ModandroidplaylistsModule.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+com.alcoapps.androidplaylists.ExampleProxy, ::com::alcoapps::androidplaylists::modandroidplaylists::ExampleProxy::bindProxy, ::com::alcoapps::androidplaylists::modandroidplaylists::ExampleProxy::dispose
+com.alcoapps.androidplaylists.ModandroidplaylistsModule, ::com::alcoapps::androidplaylists::ModandroidplaylistsModule::bindProxy, ::com::alcoapps::androidplaylists::ModandroidplaylistsModule::dispose
+%%
