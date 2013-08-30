@@ -31,6 +31,9 @@ Returns an array of objects:
 
 ### Example
 
+#### Download
+Grab the file from this repo, located at: [/dist/com.alcoapps.androidplaylists-android-1.zip](https://github.com/ricardoalcocer/TiAndroidPlaylistsModule/blob/master/dist/com.alcoapps.androidplaylists-android-1.zip)
+
 ```
 // instantiate module
 var plmod=require('com.alcoapps.androidplaylists');
