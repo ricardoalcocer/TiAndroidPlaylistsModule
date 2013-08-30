@@ -29,6 +29,20 @@ Returns an array of objects:
 ]
 ```
 
+### Example
+
+```
+// instantiate module
+var plmod=require('com.alcoapps.androidplaylists');
+
+// get all playlists.  This will return a JSON string as described above
+var playlists=plmod.getPlaylists();
+
+// assuming you got a playlist ID from the previous call, you could get its songs
+var songs=plmod.getSongs(1234);
+
+```
+
 ## Licenses
 This project is licensed under the MIL License. [http://alco.mit-license.org/](http://alco.mit-license.org/)
 
